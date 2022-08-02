@@ -1,0 +1,23 @@
+body {
+    background-color: #dbe7e7;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navName {
+    color: white;
+    text-decoration: none;
+    margin-right: 580px;
+    margin-left: 5px;
+    font-size: 30px;
+    font-family: ;
+}
+
+.navLink {
+    text-decoration: none;
+    margin-left: 40px;
+}
