@@ -10,13 +10,14 @@ body {
 
 .nav-link {
     font-family: Nunito;
-    color: white !important;
+    color: #c6c6c6 !important;
+    font-size: 18px !important;
 }
 
 .active {
     text-decoration: underline;
-    font-weight: bold !important;
-    color: rgb(88, 167,213) !important;
+    font-weight: bolder !important;
+    color: white !important;
 }
 
 .navName {
@@ -49,7 +50,7 @@ nav {
     font-family: Josefin Sans;
     letter-spacing: 5px;
 }
-.navName:hover {
+.navbar-brand:hover {
     color: white !important;
     text-decoration: underline;
 }
@@ -67,7 +68,6 @@ nav {
 .navMargin {
     margin-top: 5px;
 }
-@media();
 
 .intro {
     color: #6d6262;
@@ -88,4 +88,8 @@ nav {
 
 .box2 {
     justify-content: space-between;
+}
+
+.nav-link:hover {
+    color: white !important;
 }
